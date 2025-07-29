@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM</title>
+  <style>
+    body {
+      background-color: rgba(26, 25, 25, 0.731);
+      color: white;
+    }
+  </style>
+</head>
+<body class="bg-black">
+        <div >
+          <h1 id="tittle" class="heading">Dom Learning</h1>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam nemo minima, culpa impedit ea eveniet praesentium porro quam repellat dolor! Minus molestias ducimus maxime ullam debitis ratione! Architecto, sapiente voluptas?</p>
+        </div>
+
+        <div class="parent">
+          <div class="day">Monday</div>
+          <div class="day">Tuesday</div>
+          <div class="day">Wendesday</div>
+          <div class="day">Thursday</div>
+          <div class="day">Friday</div>
+        </div>
+
+        <div class="head">
+          heading
+        </div>
+</body>
+
+<script>
+            const parent =document.querySelector('.parent')
+            console.log(parent);
+            console.log(parent.children)
+
+            for (let index = 0; index < parent.children.length; index++) {
+    console.log(parent.children[index].innerHTML)
+}
+            parent.children[1].style.color="orange"
+            console.log(parent.childNodes);
+// adding element on dom using js
+
+            const h1 =document.createElement('h1')
+            console.log(h1);
+            h1.className="headi"
+            h1.setAttribute("title","big-heading")
+            h1.style.backgroundColor="green"     
+            h1.style.padding="12px"
+            const newHead =document.createTextNode("adding element using js")  
+            h1.appendChild(newHead)
+            document.body.appendChild(h1)     
+            
+</script>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Color Box Event</title>
+  <style>
+  #white {
+    background-color: white;
+  }
+  #grey {
+    background-color: grey;
+  }
+  #red {
+    background-color: red;
+  }
+  #yellow {
+    background-color: yellow;
+  }
+  #blue {
+    background-color: blue;
+  }
+
+  #box {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+  }
+
+  #box li {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    cursor: pointer;
+  }
+</style>
+
+</head>
+<body>
+
+  <h2>Click any box to change its color</h2>
+<ul id="box">
+  <li id="white"></li>
+  <li id="grey"></li>
+  <li id="red"></li>
+  <li id="yellow"></li>
+  <li id="blue"></li>
+</ul>
+
+</body>
+
+<script>
+   document.querySelector('#box').addEventListener('click', function(e){
+    console.log(e.target.tagName);
+    if(e.target.tagName=== 'LI'){
+      console.log(e.target.id);
+      let removeIt =e.target.parentNode
+      removeIt.parentNode.removeChild(removeIt) 
+
+    }
+    
+   })
+</script>
+</html>
