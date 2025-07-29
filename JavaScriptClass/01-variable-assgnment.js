@@ -10,3 +10,4 @@ console.log("My Friend Name is : "+friend);
 console.log("My country Name is : "+country);
 console.log("My School Name is : "+schoolName);
 console.log("My college Name is : "+collegName);
+
