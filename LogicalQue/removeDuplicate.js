@@ -5,7 +5,5 @@ arr.forEach(item=>{
   if(!unique.includes(item)){
     unique.push(item)
   }
-  
-  
 })
 console.log(unique);
