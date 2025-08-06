@@ -16,19 +16,19 @@ greet()
 console.log('---------------- Task 2 Function With parameter  ------------------------');
 
 function firsname(firstname){
-  console.log(`First Name Is ${firstname}`);
+  console.log(`First Name Is : ${firstname}`);
 }
 
 firsname("Devesh")
 
 function lastname(lasttname){
-  console.log(`last Name Is ${lasttname}`);
+  console.log(`last Name Is : ${lasttname}`);
 }
 
-firsname("Shisode")
+lastname("Shisode")
 
 function collegename(collegename){
-  console.log(`My college Name Is ${collegename}`);
+  console.log(`My college Name Is : ${collegename}`);
 }
 
 collegename("Shram Sadhna Bombay Trust")
@@ -43,4 +43,4 @@ addnum(10.23,600,40)
 function addstr(n1,n2,n3){
   console.log("Addition of addstr Function",n1+n2+n3);
 }
-addnum("Hello","Good","Morning")
+addstr("Hello","Good","Morning")
