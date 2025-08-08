@@ -8,6 +8,8 @@ function FindCharacter(str,charFind){
       for(let i=0;i<str.length;i++){
         if(str[i]===char){
           count++
+          console.log(`character Found At Index ${i}`);
+          
         }
       }
       console.log(`character ${char} appears ${count} times`);
