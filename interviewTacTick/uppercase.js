@@ -5,7 +5,7 @@
  for(let i=0 ;i<words.length;i++){
 
       let word =words[i]
-      newString =newString + word.charAt(0).toUpperCase() + word.slice(1)+" "
+      newString =newString + word.charAt(0).toUpperCase() + word.slice(1)+" " 
 
  }
 

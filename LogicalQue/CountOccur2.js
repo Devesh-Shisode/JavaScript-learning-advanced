@@ -1,13 +1,11 @@
 
-let arr=['a','b','c','a','b','c','a','b','c']
+let arr=['a','b','b','c','a','b','c','a','b','c']
 
 let count ={}
 
 for(let i=0;i<arr.length;i++){
   let elements=arr[i]
   if(count[elements]===undefined){
-     
-    
     count[elements]=1
    }else{
     count[elements]=count[elements]+1

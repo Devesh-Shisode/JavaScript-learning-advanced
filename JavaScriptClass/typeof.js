@@ -27,3 +27,5 @@ console.log("======================== 4.===========================");
  console.log(`the count is ${strcount} and its datatype is ${typeof strcount}`);
  console.log(`the count is ${numcount} and its datatype is ${typeof numcount}`);
  
+ 
+ 

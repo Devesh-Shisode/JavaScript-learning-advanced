@@ -9,7 +9,7 @@
           
         }
  }
-
+obj.welcome()
 //   const obj1 ={
 
 //         name : "chaitanya",
@@ -25,8 +25,7 @@
 
         function welcomeBack(){
           console.log(`hello ${obj.name}`);
-          
-        }
+         }
  console.log(this);
 
 // obj.welcome()

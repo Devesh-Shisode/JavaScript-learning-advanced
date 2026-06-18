@@ -45,5 +45,5 @@ let books =[
 
 
 let result =books.filter((bk)=>bk.title==='half girlfriend')
-result =books.filter((bk)=>{ return bk.price>139})
+//result =books.filter((bk)=>{ return bk.price>139})
 console.log(result);

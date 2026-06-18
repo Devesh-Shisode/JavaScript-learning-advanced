@@ -1,5 +1,5 @@
 function fiboNacci(no){
-  console.log(0,1)
+  console.log(0,"\n",1)
       var prev=0;
       var next=1;
   for (var i=0;i<no;i++){
@@ -9,6 +9,5 @@ function fiboNacci(no){
         next=newnext;
   }
 }
- 
 let no = 10;
 fiboNacci(no+"\n");

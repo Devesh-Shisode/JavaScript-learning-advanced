@@ -7,14 +7,18 @@ const prompt = require('prompt-sync')();
  console.log(typeof boolConvert);
  
  
- console.log(+true);
+ console.log(-false);
+ console.log("Null==undefined",null==undefined);
  
 
-if(0) console.log(true);
+if(1) console.log(true);
 console.log("5"===5);
 
+console.log("5"+5);
 
-let name = prompt("Enter your name:");
-console.log("Hello, " + name);
+console.log(5+'5');
+
+// let name = prompt("Enter your name:");
+// console.log("Hello, " + name);
 
 

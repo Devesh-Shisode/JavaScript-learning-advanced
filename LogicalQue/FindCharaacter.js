@@ -9,7 +9,6 @@ function FindCharacter(str,charFind){
         if(str[i]===char){
           count++
           console.log(`character Found At Index ${i}`);
-          
         }
       }
       console.log(`character ${char} appears ${count} times`);

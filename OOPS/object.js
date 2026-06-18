@@ -26,6 +26,10 @@ const tea = createUser("tea", 250)
 
 chai.printMe()
 
+const future =()=> "codedisha"
+
+console.log(future());
+
 
 /*
 

@@ -1,5 +1,5 @@
 
-let word = "madam"
+let word = "";
 
 function palindrome(words){
   let palindrome ="";

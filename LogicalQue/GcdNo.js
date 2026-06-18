@@ -6,7 +6,7 @@ function findGcd(no1,no2){
           gcd=i;
     }
   }
-    console.log("gcd of {no1},{no1} is {gcd} ",no1,no2,gcd);
+    console.log(`gcd of ${no1},${no2} is ${gcd}`,no1,no2,gcd);
 }
 
 findGcd(14,7);

@@ -1,9 +1,7 @@
-
+// "use strict"
 function one(){
     let a = b = 2;
     a++
-     
-    
     return a
 }
 one()

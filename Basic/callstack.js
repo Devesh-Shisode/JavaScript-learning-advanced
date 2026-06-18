@@ -1,18 +1,12 @@
 function one(){
   two()
-  console.log("one");
-  
+  console.log("one"); 
 }
-
 function two(){
   three()
-  console.log("two");
-  
+  console.log("two"); 
 }
-
 function three(){
-  console.log("three");
-  
+  console.log("three"); 
 }
-
 one()

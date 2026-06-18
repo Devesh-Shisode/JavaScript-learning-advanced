@@ -19,11 +19,13 @@
  
 //  console.log(str);
 
-
+number ="sdfsfms"
+num=Number(number)
+console.log(isNaN(number));
 
  let arrstr =["devesh","chaitanya","kunal"]
 
 
- console.log(arrstr.includes('chirag'));
+ console.log(arrstr.includes('devesh'));
  
 
